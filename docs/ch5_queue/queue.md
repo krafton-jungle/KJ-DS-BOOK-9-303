@@ -234,8 +234,14 @@ void enqueue(int x) {
 
 큐는 다양한 컴퓨팅 환경에서 "처리 순서"를 제어하는 데 핵심적인 자료구조다.예를 들어, 운영체제의 작업 스케줄러, 프린터 대기열, 네트워크 패킷 처리, 그리고 BFS 같은 알고리즘 문제에서도 큐는 핵심 도구로 사용된다.따라서 알고리즘 문제나 실제 시스템 설계 시 큐의 개념을 정확히 이해하고 있어야 한다.
 
-# References
+# 참고
 
--[Geeks for Geeks](https://www.geeksforgeeks.org/queue-data-structure/)
+- **참고한 자료**
 
--[WikiPedia](https://en.wikipedia.org/wiki/Queue_(abstract_data_type))
+    - GeeksforGeeks의 [Queue-data-structure](https://www.geeksforgeeks.org/queue-data-structure/)
+
+    - Wekipedia의 [Queue_ADT](https://en.wikipedia.org/wiki/Queue_(abstract_data_type))
+
+- **이미지 출처** 
+
+    - GeeksforGeeks의 [Queue-data-structure](https://www.geeksforgeeks.org/queue-data-structure/)
