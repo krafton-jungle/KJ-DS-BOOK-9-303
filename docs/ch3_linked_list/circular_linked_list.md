@@ -19,7 +19,7 @@ struct Node {
 };
 ```
 <p align="center">
-    <img src="./1.png" width="250px" height="150"></img>
+    <img src="./assets/1.png" width="250px" height="150"></img>
 </p>
 
 ### 두 종류의 원형 연결 리스트
@@ -52,7 +52,7 @@ third->next = last
 last->next = first;
 ```
 <p align="center">
-    <img src="./2.png" width="300px" height="150"></img>
+    <img src="./assets/2.png" width="300px" height="150"></img>
 </p>
 
 #### 1-2. 원형 연결 리스트의 헤드 포인터
@@ -66,7 +66,7 @@ last->next = first;
 <u>위의 두 경우 모두 삽입을 위해 전체 리스트를 순회해야 한다.</u>
 
 <p align="center">
-    <img src="./3.png" width="300px" height="150"></img>
+    <img src="./assets/3.png" width="300px" height="150"></img>
 </p>
 
 위의 원형 연결 리스트에서는 헤드 포인터를 `마지막 노드`를 가리키도록 했다. 
@@ -80,13 +80,13 @@ last->next = first;
 <리스트의 처음에 새로운 노드를 삽입하는 경우>
 
 <p align="center">
-    <img src="./4.png" width="300px" height="200"></img>
+    <img src="./assets/4.png" width="300px" height="200"></img>
 </p>
 
 <리스트의 끝에 새로운 노드를 삽입하는 경우>
 
 <p align="center">
-    <img src="./5.png" width="300px" height="150"></img>
+    <img src="./assets/5.png" width="300px" height="150"></img>
 </p>
 
 ### 2. 이중 연결 리스트 방식
@@ -115,7 +115,7 @@ struct Node {
 };
 ```
 <p align="center">
-    <img src="./6.png" width="300px" height="150"></img>
+    <img src="./assets/6.png" width="300px" height="150"></img>
 </p>
 
 ## 원형 연결 리스트의 동작
